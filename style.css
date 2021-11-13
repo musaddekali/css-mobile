@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.body_wrapper {
+    width: 100%;
+    height: 100%;
+    background: #ffffff4d;
+    position: fixed;
+}
+
+
+.mobile {
+    width: 314px;
+    height: 600px;
+    background: radial-gradient(#eedcdc, #0319ff);
+    border-radius: 15px;
+    margin: auto;
+    /* padding: 5px; */
+    border-left: 4px solid #446b7f;
+    border-right: 4px solid #3d667a;
+    border-bottom: 6px solid #426a7d;
+    border-top: 4px solid #426a7d;
+    margin-top: 37px;
+    position: relative;
+    /* overflow: hidden; */
+    box-shadow: 52px 54px 80px 0 #787878;
+}
+
+.mobile_header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: radial-gradient(#d9e9f3, #466d80);
+    height: 61px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sensore {
+    width: 10px;
+    height: 10px;
+    background: radial-gradient(#615757, #000000);
+    border-radius: 50%;
+    position: absolute;
+    left: 61px;
+}
+
+.speaker {
+    width: 45px;
+    height: 7px;
+    background: radial-gradient(#615757, #000000);
+    border-radius: 64px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.camera {
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(#615757, #000000);
+    border-radius: 50%;
+    position: absolute;
+    right: 53px;
+}
+
+
+
+
+.display {
+    /* background: radial-gradient(#615757, #000000); */
+    background: rgb(31, 32, 40);
+    background: linear-gradient(90deg, rgba(31, 32, 40, 1) 1%, rgba(31, 32, 40, 1) 1%, rgba(194, 200, 249, 1) 53%, rgba(31, 32, 40, 1) 98%, rgba(50, 91, 99, 1) 100%);
+
+
+    height: 97%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.display_iframe {
+    padding-top: 61px;
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+    border-radius: 12px;
+}
+
+.brand {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: radial-gradient(#c5ccd0, #1e4f67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3.4px;
+    color: #315d73;
+}
+
+.volium_btn {
+    height: 100px;
+    width: 3px;
+    background: #07354c;
+    position: absolute;
+    top: 89px;
+    right: -7px;
+    border-radius: 10px;
+}
+
+.power_btn {
+    position: absolute;
+    width: 3px;
+    height: 44px;
+    background: #07354c;
+    right: -7px;
+    top: 200px;
+    border-radius: 10px;
+}
